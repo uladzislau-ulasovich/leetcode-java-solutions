@@ -1,0 +1,14 @@
+HELP.md
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Intellij Idea files
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+# JetBrains Fleet
+.fleet
