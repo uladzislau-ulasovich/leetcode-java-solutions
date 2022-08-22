@@ -1,5 +1,6 @@
-package com.leetcode.problems.medium;
+package com.leetcode.problems.medium.trie;
 
+import com.leetcode.problems.medium.trie.HashMapTrie;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +11,7 @@ class TrieTest {
     @Test
     @DisplayName("Simple test-cases for Trie implementation")
     void test() {
-        Trie tested = new Trie();
+        HashMapTrie tested = new HashMapTrie();
         tested.insert("apple");
 
         assertThat(tested.search("apple")).isTrue();
