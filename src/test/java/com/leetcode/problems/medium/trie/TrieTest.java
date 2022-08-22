@@ -11,7 +11,7 @@ class TrieTest {
     @Test
     @DisplayName("Simple test-cases for Trie implementation")
     void test() {
-        HashMapTrie tested = new HashMapTrie();
+        Trie tested = new HashMapTrie();
         tested.insert("apple");
 
         assertThat(tested.search("apple")).isTrue();
